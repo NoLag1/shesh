@@ -1,17 +1,2 @@
--- First load the second script
-local success2, result2 = pcall(function()
-    return loadstring(game:HttpGet("https://cdn.sourceb.in/bins/dKbXPczmQO/0", true))()
-end)
-
-if not success2 then
-    warn("Failed to load the second script: " .. result2)
-else
-    -- Then load the first script if the second one succeeds
-    local success1, result1 = pcall(function()
-        return loadstring(game:HttpGet("https://raw.githubusercontent.com/NoLag1/Omghub1/refs/heads/main/OMG", true))()
-    end)
-
-    if not success1 then
-        warn("Failed to load the first script: " .. result1)
-    end
-end
+loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/9F9XB31hErX6W32W/raw", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoLag1/Omghub1/refs/heads/main/OMG", true))()
